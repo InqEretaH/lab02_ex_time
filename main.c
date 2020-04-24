@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 
     time_t pstTime;
 
-    if (setenv("TZ", "PST8PDT", 1) == -1) {
+    if (setenv("TZ", "US/Pacific", 1) == -1) {
         perror("Error while setting environment variables");
         exit(ERR_SETENV);
     }
