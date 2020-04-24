@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 1) {
         fprintf(stdout, "Usage: ./californiaTime (no arguments provided)\n");
-        return ERR_ARGS;
+        exit(ERR_ARGS);
     }
 
     time_t pstTime;
