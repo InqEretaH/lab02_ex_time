@@ -1,7 +1,6 @@
-#include <sys/types.h>
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include <stdio.h>  //printf, fprintf, perror,
+#include <time.h>   //time, ctime
+#include <stdlib.h> //setenv, exit
 
 #define NO_ERRORS 0
 #define ERR_SETENV 1
